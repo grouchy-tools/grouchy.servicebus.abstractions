@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net451;netstandard2.0</TargetFrameworks>
+    <Product>Grouchy.ServiceBus.Abstractions</Product>
+    <Title>Grouchy.ServiceBus.Abstractions</Title>
+    <Authors>Andrew Craven</Authors>
+    <RootNamespace>Grouchy.ServiceBus.Abstractions</RootNamespace>
+    <AssemblyName>Grouchy.ServiceBus.Abstractions</AssemblyName>
+    <VersionPrefix>0.0.1</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Grouchy.ServiceBus.Abstractions</PackageId>
+    <PackageLicenseUrl>https://github.com/grouchy-tools/grouchy.servicebus.abstractions/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>git://github.com/grouchy-tools/grouchy.servicebus.abstractions</RepositoryUrl>
+  </PropertyGroup>
+</Project>
