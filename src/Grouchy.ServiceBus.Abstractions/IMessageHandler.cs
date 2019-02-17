@@ -1,7 +1,7 @@
-using System.Threading.Tasks;
-
 namespace Grouchy.ServiceBus.Abstractions
 {
+   using System.Threading.Tasks;
+
    public interface IMessageHandler<in TMessage>
       where TMessage : class
    {

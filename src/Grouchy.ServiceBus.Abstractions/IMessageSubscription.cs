@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Grouchy.ServiceBus.Abstractions
+﻿namespace Grouchy.ServiceBus.Abstractions
 {
+   using System;
+
    public interface IMessageSubscription : IDisposable
    {
    }

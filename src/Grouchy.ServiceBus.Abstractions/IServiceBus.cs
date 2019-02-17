@@ -1,14 +1,13 @@
-﻿using System;
-using System.Threading.Tasks;
-
-namespace Grouchy.ServiceBus.Abstractions
+﻿namespace Grouchy.ServiceBus.Abstractions
 {
+   using System;
+   using System.Threading.Tasks;
+
    public interface IServiceBus : IDisposable
    {
       Task Publish<TMessage>(TMessage message) where TMessage : class;
 
-      IMessageSubscription Subscribe<TMessage, TMessageHandler>(TMessageHandler messageHandler)
-         where TMessage : class
-         where TMessageHandler : class, IMessageHandler<TMessage>;
+      IMessageSubscription Subscribe<TMessage>(IMessageHandler<TMessage> messageHandler)
+         where TMessage : class;
    }
 }
