@@ -3,11 +3,11 @@
    using System;
 
    [AttributeUsage(AttributeTargets.Class)]
-   public class QueueNameAttribute : Attribute
+   public class MessageNameAttribute : Attribute
    {
       public string Name { get; }
 
-      public QueueNameAttribute(string name)
+      public MessageNameAttribute(string name)
       {
          Name = name;
       }

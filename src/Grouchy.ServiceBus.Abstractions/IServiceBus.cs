@@ -7,7 +7,7 @@
    {
       Task Publish<TMessage>(TMessage message) where TMessage : class;
 
-      IMessageSubscription Subscribe<TMessage>(IMessageHandler<TMessage> messageHandler)
+      IMessageSubscription Subscribe<TMessage>()
          where TMessage : class;
    }
 }
